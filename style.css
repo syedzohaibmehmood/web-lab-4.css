@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("pic3.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    color: royalblue;
+}
+.login-form{
+    background-color: rgb(200, 211, 42,0.5);
+    width: 380px;
+    height:350px;
+    margin:0;
+    padding: 50px;
+    position:absolute;
+
+top: 50%;
+left: 50%;
+box-sizing: border-box;
+transform: translate(-50%, -50%);
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight:bold;
+    text-align: center;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font: size 18px;
+    color: rgb(221, 38, 38);
+    .Login-form input[type="button"]
+     border: none;
+     outline:none;
+     height: 30px;
+     background-color:none;
+     color:blue;
+     font: size 18px;
+     border: radius 400px;
+    
+
+}
+.login-form input[type="button"]:hover
+{
+    background-color: #000;
+    color: tomato;
+    cursor: pointer;
+
+}
+.login-form a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+
+}
+.login-form img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top:-80px;
+left: calc(50%-50px);
+}
